@@ -1,0 +1,10 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "R AswathPrabhu <aswathprabhu.r@zohocorp.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
