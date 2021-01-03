@@ -15,7 +15,8 @@ const proxy = async (req, res) => {
     return
   }
   try {
-    let response = await fetch(req);
+    let response = await fetch(req.url, req.options);
+    console.log(req);
     let json = await response.json();
     res.json(json);
   } catch (err) {
